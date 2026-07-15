@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>AI Sentiment Analysis</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💬 Sentiment Analysis</h1>
+
+    <p class="subtitle">
+        Analyze whether a review is
+        <span class="positive">Positive</span>,
+        <span class="neutral">Neutral</span> or
+        <span class="negative">Negative</span>
+    </p>
+
+    <form action="/predict" method="POST">
+
+        <textarea
+                name="text"
+                rows="8"
+                placeholder="Type your review here..."
+                required>{{ user_text if user_text else '' }}</textarea>
+
+        <button type="submit">
+            Analyze Sentiment
+        </button>
+
+    </form>
+
+    {% if prediction %}
+
+    <div class="result">
+
+        <h2>
+
+            Prediction :
+
+            <span class="{{ css_class }}">
+
+                {{ emoji }}
+
+                {{ prediction }}
+
+            </span>
+
+        </h2>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+
+</html>

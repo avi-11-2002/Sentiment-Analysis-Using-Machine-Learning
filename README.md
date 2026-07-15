@@ -1,3 +1,8 @@
+
+
+https://github.com/user-attachments/assets/1d0ed9ca-c1de-4fb6-85b7-6c2832258e36
+
+
 # 💬 AI Sentiment Analysis
 
 A simple Machine Learning web application that predicts whether a given text is **Positive**, **Negative**, or **Neutral**.
@@ -59,11 +64,6 @@ AI-Sentiment-Analysis/
 └── README.md
 ```
 
-## 🎥 Demo Video
-
-A short demonstration of the application is shown below.
-
-https://github.com/user-attachments/assets/your-video-link
 
 ---
 

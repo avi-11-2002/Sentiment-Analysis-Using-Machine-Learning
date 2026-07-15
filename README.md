@@ -1,13 +1,12 @@
-
-
-https://github.com/user-attachments/assets/1d0ed9ca-c1de-4fb6-85b7-6c2832258e36
-
-
 # 💬 AI Sentiment Analysis
 
 A simple Machine Learning web application that predicts whether a given text is **Positive**, **Negative**, or **Neutral**.
 
 This project was built using **Python, Flask, TF-IDF, and Logistic Regression**. Users can enter any review or sentence, and the application predicts its sentiment instantly.
+
+
+https://github.com/user-attachments/assets/1d0ed9ca-c1de-4fb6-85b7-6c2832258e36
+
 
 ---
 
